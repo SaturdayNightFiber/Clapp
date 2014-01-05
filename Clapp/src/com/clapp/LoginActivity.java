@@ -10,8 +10,12 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        foo();
     }
 
+    public void foo() {
+    	
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
